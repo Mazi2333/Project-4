@@ -44,7 +44,7 @@ Multiple machine learning models are trained and evaluated, including Random For
 To run this project locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/customer-churn-prediction.git
+git clone https://github.com/Mazi2333/Project-4.git
 Navigate to the project directory:
 cd customer-churn-prediction
 Install the required dependencies:
@@ -58,3 +58,6 @@ Evaluate the model using the evaluation script.
 Use the trained model to predict churn for new customers.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## Medium Blog Post 
+For some insight on the project please visit the (https://medium.com/@mcmolebatsi/predicting-customer-churn-a-data-science-approach-8158cd7b8b45)
