@@ -1,20 +1,43 @@
-# Project-4
-Udacity Capstone
+# Project-4 Udacity Capstone
+
+## Libraries Used
+
+**Essential Libraries**
+- pandas
+- numpy
+  
+**Visualization Libraries**
+- matplotlib
+- seaborn
+  
+**Warnings Suppression***
+- warnings
+
+**Preprocessing Tools**
+- LabelEncoder from sklearn.preprocessing
+- SMOTE from imblearn.over_sampling
+
+**Machine Learning Tools**
+- train_test_split and cross_val_score from sklearn.model_selection
+- DecisionTreeClassifier from sklearn.tree
+- RandomForestClassifier from sklearn.ensemble
+- XGBClassifier from xgboost
+- GridSearchCV from sklearn.model_selection
+
+**Evaluation Metrics**
+- accuracy_score, confusion_matrix, classification_report, roc_auc_score from sklearn.metrics
+
+**Serialization Tool**
+- pickle
+
 ## Customer Churn Prediction
 Project Overview
 This project aims to develop a machine learning model to predict customer churn, enabling businesses to identify at-risk customers before they leave. By leveraging data from the Telco Customer Churn dataset, the project explores various machine learning techniques to build an effective churn prediction model.
 
-**Table of Contents**
-Project Overview
-Data Collection and Preprocessing
-Exploratory Data Analysis (EDA)
-Modelling and Evaluation
-Key Findings
-Future Work
-Installation
-Usage
-Contributing
-License
+## File Description
+
+The Notebook uses a csv file called WA_Fn-UseC_-Telco-Customer-Churn.csv, which contains the necessary data to run the notebook. 
+In the repository you will also find encoder.pkl, The purpose of this file is to load pre-fitted encoders for categorical features from a serialized file and prepare them for use in data preprocessing. 
 
 ## Data Collection and Preprocessing
 The dataset used in this project is the Telco Customer Churn dataset, which includes information about customer demographics, account information, and services used. The preprocessing steps include:
@@ -61,3 +84,11 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Medium Blog Post 
 For some insight on the project please visit the (https://medium.com/@mcmolebatsi/predicting-customer-churn-a-data-science-approach-8158cd7b8b45)
+
+## Acknowledgements & License
+
+- The Telco Customer Churn dataset was provided by IBM Watson Analytics.
+- Special thanks to the contributors of the Kaggle community for their valuable insights and resources.
+- Thanks to the developers of the libraries used in this project, including pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, and pickle.
+
+This project is licensed under the MIT License.
